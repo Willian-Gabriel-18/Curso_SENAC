@@ -7,17 +7,56 @@
     <title>Aula 2</title>
 </head>
 <body>
-    <h1>Pagina Principal</h1>
-    
-    <a href="file:///C:/Users/t201/Documents/GitHub/Curso_SENAC/aula1/index.html">Aula 1</a> 
-    <a href="index.html">Aula 2</a>
-    <a href="https://www.w3schools.com/cpp/default.asp" target="_blank">Link externo</a>
-    <a href="pagina1.html">Pagina 1</a>
-    <a href="pagina2.html">Pagina 2</a>
-    <a href="#"><img src="assets/image/img.jpg" alt=""></a>
 
-
-    <br>
+    <h1 id="site-title">
+        <a id="site-title-link" href="#">Página Principal</a>
+    </h1>
     
+
+    <h2>URLs Absolutas</h2>
+    <p>URL Absoluto(um endereço da Web Completo)</p>
+    
+    <a href="https://www.w3schools.com/cpp/default.asp" target="_blank" class="linkAbsolute">W3Schools</a>
+    <a href="https://www.tutorialspoint.com/index.htm" target="_blank" class="linkAbsolute">TutorialsPoint</a>
+    
+
+    <h2>URLs Relativas</h2>
+    <p>URL Relativa é um link para um página dentro do mesmo site</p>
+    <a href="file:///C:/Users/t201/Documents/GitHub/Curso_SENAC/aula1/index.html" class="linkRelative">Aula 1</a> 
+    <a href="index.html" class="linkRelative">Aula 2</a>
+    <a href="pagina1.html" class="linkRelative">Pagina 1</a>
+    <a href="pagina2.html" class="linkRelative">Pagina 2</a>
+    
+    <h2>Conhecendo as listas</h2>
+    <h3>Lista Ordenada</h3>
+
+    <ol type="1">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+    
+    <h3>Lista não Ordenada</h3>
+    
+    <ul type="square">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <h2>Inserindo Mídias (Vídeos e Músicas)</h2>
+    <h3>Vídeos</h3>
+    <h4>Vídeos Internos</h4>
+        <video controls src="assets/video/Imagine_Dragons_x_J.I.D_-_Enemy_from_the_series_Arcane_League_of_Legends.mp4"  ></video>
+    <h4>Vídeos Externos</h4>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dlJLAM-EH3w?si=6qltgxwMpn9nqjxf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+    <h3>Músicas</h3>
+    <audio controls src="assets/audio/Imagine Dragons x J.I.D - Enemy (from the series Arcane League of Legends) (320 kbps).mp3"></audio>
+    <p>
+        <a download="Musica Daora" href="assets/audio/Imagine Dragons x J.I.D - Enemy (from the series Arcane League of Legends) (320 kbps).mp3">Download da Música</a>
+    </p>
+
 </body>
 </html>
