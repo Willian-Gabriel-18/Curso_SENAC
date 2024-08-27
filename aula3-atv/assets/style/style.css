@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-size: 8em;
+}
+
+.image-container{
+    width: 60%;
+    max-width: 1200px;
+}
+
+.image-container img{
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+    padding: .6em;
+}
+
+.back-icon{
+    width: 150px;
+    border-radius: 50%;
+}
+
+.videos{
+    width: 100%;
+}
