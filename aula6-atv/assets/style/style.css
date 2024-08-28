@@ -85,6 +85,7 @@ section{
     display: flex;
     flex-flow: row nowrap;
     margin-top: .8em;
+    justify-content: flex-end;
 }
 
 .form-row-label{
@@ -124,4 +125,20 @@ input[type='text'], input[type='email'], textarea{
     padding: 1em;
     border-radius: 1em;
     font-size: 1.4em;
+}
+
+.form-row button:hover{
+    background-color: aliceblue;
+    color: black;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #676767;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+footer p{
+    padding: 1em;
 }
